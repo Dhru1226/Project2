@@ -37,21 +37,18 @@ int main()
         result = num1 + num2;
         cout << "result: " << result << endl;
         break;
-        switch (choice)
     case 2:
         cout << "Enter the numbers to subtract: ";
         cin >> num1 >> num2;
         result = num1 - num2;
         cout << "result: " << result << endl;
         break;
-        switch (choice)
     case 3:
         cout << "Enter the numbers to multiply: ";
         cin >> num1 >> num2;
         result = num1 * num2;
         cout << "result: " << result << endl;
         break;
-        switch (choice)
     case 4:
         cout << "Enter the numbers to divide: ";
         cin >> num1 >> num2;
@@ -63,7 +60,6 @@ int main()
             cout << "Error: Divison by zero is not allowed. \n";
         }
         break;
-        switch (choice)
     case 5:
         cout << "Enter the base and exponent: ";
         cin >> num1 >> num2;
