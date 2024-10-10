@@ -18,7 +18,8 @@ int main()
 {
     int choice;
     double num1, num2, results;
-
+    double result;
+    
     //Display
     cout << "Calculator Program\n";
     cout << "1. Add\n";
